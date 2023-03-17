@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250971CF2978E493009CAD26 /* MainMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250971CE2978E493009CAD26 /* MainMocks.swift */; };
+		255AC48A296F9125005ED257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AC489296F9125005ED257 /* AppDelegate.swift */; };
+		255AC48C296F9125005ED257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AC48B296F9125005ED257 /* SceneDelegate.swift */; };
+		255AC48E296F9125005ED257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AC48D296F9125005ED257 /* ViewController.swift */; };
+		255AC491296F9125005ED257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255AC48F296F9125005ED257 /* Main.storyboard */; };
+		255AC493296F9126005ED257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255AC492296F9126005ED257 /* Assets.xcassets */; };
+		255AC496296F9126005ED257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255AC494296F9126005ED257 /* LaunchScreen.storyboard */; };
+		256CA2E7297A00E800807A6A /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CA2E6297A00E800807A6A /* MainInteractorTests.swift */; };
+		256CA2E9297A1F1300807A6A /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CA2E8297A1F1300807A6A /* MainPresenterTests.swift */; };
+		256CA2ED297A2F3500807A6A /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CA2EC297A2F3500807A6A /* MainViewControllerTests.swift */; };
+		256CA2EF297A4B5800807A6A /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CA2EE297A4B5800807A6A /* MainViewTests.swift */; };
+		AF378EF0016A7A8D15C93A98 /* Pods_YARCH_HomeWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02954D3CB9F24158C7D0BD32 /* Pods_YARCH_HomeWork.framework */; };
+		FA8BF938517D88EE84E785A1 /* Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C69679CECEFE42656C4E /* Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		250971C82978DFB9009CAD26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255AC47E296F9125005ED257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255AC485296F9125005ED257;
+			remoteInfo = "YARCH-HomeWork";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02954D3CB9F24158C7D0BD32 /* Pods_YARCH_HomeWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YARCH_HomeWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0815DA6947DB95B4869815A0 /* Pods-YARCH-HomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARCH-HomeWork.debug.xcconfig"; path = "Target Support Files/Pods-YARCH-HomeWork/Pods-YARCH-HomeWork.debug.xcconfig"; sourceTree = "<group>"; };
+		250971C42978DFB9009CAD26 /* YARCH-HomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YARCH-HomeWorkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250971CE2978E493009CAD26 /* MainMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMocks.swift; sourceTree = "<group>"; };
+		255AC486296F9125005ED257 /* YARCH-HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YARCH-HomeWork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255AC489296F9125005ED257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		255AC48B296F9125005ED257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		255AC48D296F9125005ED257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		255AC490296F9125005ED257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255AC492296F9126005ED257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255AC495296F9126005ED257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		255AC497296F9126005ED257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256CA2E6297A00E800807A6A /* MainInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
+		256CA2E8297A1F1300807A6A /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		256CA2EC297A2F3500807A6A /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
+		256CA2EE297A4B5800807A6A /* MainViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTests.swift; sourceTree = "<group>"; };
+		6FEA9C5F4F8D7F7FC41928E4 /* Pods-YARCH-HomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARCH-HomeWork.release.xcconfig"; path = "Target Support Files/Pods-YARCH-HomeWork/Pods-YARCH-HomeWork.release.xcconfig"; sourceTree = "<group>"; };
+		BC1E4CB344AAD8F627E22456 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARCH-HomeWork-YARCH-HomeWorkTests.release.xcconfig"; path = "Target Support Files/Pods-YARCH-HomeWork-YARCH-HomeWorkTests/Pods-YARCH-HomeWork-YARCH-HomeWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE29C69679CECEFE42656C4E /* Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D754814C1277C5AB73552FF5 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARCH-HomeWork-YARCH-HomeWorkTests.debug.xcconfig"; path = "Target Support Files/Pods-YARCH-HomeWork-YARCH-HomeWorkTests/Pods-YARCH-HomeWork-YARCH-HomeWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250971C12978DFB9009CAD26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8BF938517D88EE84E785A1 /* Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AC483296F9125005ED257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF378EF0016A7A8D15C93A98 /* Pods_YARCH_HomeWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250971C52978DFB9009CAD26 /* YARCH-HomeWork-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				250971CD2978E445009CAD26 /* Main */,
+			);
+			path = "YARCH-HomeWork-Tests";
+			sourceTree = "<group>";
+		};
+		250971CD2978E445009CAD26 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				250971CE2978E493009CAD26 /* MainMocks.swift */,
+				256CA2E6297A00E800807A6A /* MainInteractorTests.swift */,
+				256CA2E8297A1F1300807A6A /* MainPresenterTests.swift */,
+				256CA2EC297A2F3500807A6A /* MainViewControllerTests.swift */,
+				256CA2EE297A4B5800807A6A /* MainViewTests.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		255AC47D296F9125005ED257 = {
+			isa = PBXGroup;
+			children = (
+				255AC488296F9125005ED257 /* YARCH-HomeWork */,
+				250971C52978DFB9009CAD26 /* YARCH-HomeWork-Tests */,
+				255AC487296F9125005ED257 /* Products */,
+				303D55B54FEF3AB277976A1D /* Pods */,
+				75BD943AC1A89CE67F286D6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		255AC487296F9125005ED257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255AC486296F9125005ED257 /* YARCH-HomeWork.app */,
+				250971C42978DFB9009CAD26 /* YARCH-HomeWorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255AC488296F9125005ED257 /* YARCH-HomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				255AC489296F9125005ED257 /* AppDelegate.swift */,
+				255AC48B296F9125005ED257 /* SceneDelegate.swift */,
+				255AC48D296F9125005ED257 /* ViewController.swift */,
+				255AC48F296F9125005ED257 /* Main.storyboard */,
+				255AC492296F9126005ED257 /* Assets.xcassets */,
+				255AC494296F9126005ED257 /* LaunchScreen.storyboard */,
+				255AC497296F9126005ED257 /* Info.plist */,
+			);
+			path = "YARCH-HomeWork";
+			sourceTree = "<group>";
+		};
+		303D55B54FEF3AB277976A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0815DA6947DB95B4869815A0 /* Pods-YARCH-HomeWork.debug.xcconfig */,
+				6FEA9C5F4F8D7F7FC41928E4 /* Pods-YARCH-HomeWork.release.xcconfig */,
+				D754814C1277C5AB73552FF5 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.debug.xcconfig */,
+				BC1E4CB344AAD8F627E22456 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75BD943AC1A89CE67F286D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02954D3CB9F24158C7D0BD32 /* Pods_YARCH_HomeWork.framework */,
+				BE29C69679CECEFE42656C4E /* Pods_YARCH_HomeWork_YARCH_HomeWorkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250971C32978DFB9009CAD26 /* YARCH-HomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250971CC2978DFB9009CAD26 /* Build configuration list for PBXNativeTarget "YARCH-HomeWorkTests" */;
+			buildPhases = (
+				4F16852DBEB5590D0249E740 /* [CP] Check Pods Manifest.lock */,
+				250971C02978DFB9009CAD26 /* Sources */,
+				250971C12978DFB9009CAD26 /* Frameworks */,
+				250971C22978DFB9009CAD26 /* Resources */,
+				BE4FF58DF0C44C84525E2CAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250971C92978DFB9009CAD26 /* PBXTargetDependency */,
+			);
+			name = "YARCH-HomeWorkTests";
+			productName = "YARCH-HomeWorkTests";
+			productReference = 250971C42978DFB9009CAD26 /* YARCH-HomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255AC485296F9125005ED257 /* YARCH-HomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255AC49A296F9126005ED257 /* Build configuration list for PBXNativeTarget "YARCH-HomeWork" */;
+			buildPhases = (
+				065EC491373F422A62776F11 /* [CP] Check Pods Manifest.lock */,
+				255AC482296F9125005ED257 /* Sources */,
+				255AC483296F9125005ED257 /* Frameworks */,
+				255AC484296F9125005ED257 /* Resources */,
+				77B9BB9674C89F97FF074FBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YARCH-HomeWork";
+			productName = "YARCH-HomeWork";
+			productReference = 255AC486296F9125005ED257 /* YARCH-HomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255AC47E296F9125005ED257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					250971C32978DFB9009CAD26 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+						TestTargetID = 255AC485296F9125005ED257;
+					};
+					255AC485296F9125005ED257 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 255AC481296F9125005ED257 /* Build configuration list for PBXProject "YARCH-HomeWork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255AC47D296F9125005ED257;
+			productRefGroup = 255AC487296F9125005ED257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255AC485296F9125005ED257 /* YARCH-HomeWork */,
+				250971C32978DFB9009CAD26 /* YARCH-HomeWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250971C22978DFB9009CAD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AC484296F9125005ED257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AC496296F9126005ED257 /* LaunchScreen.storyboard in Resources */,
+				255AC493296F9126005ED257 /* Assets.xcassets in Resources */,
+				255AC491296F9125005ED257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065EC491373F422A62776F11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YARCH-HomeWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F16852DBEB5590D0249E740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YARCH-HomeWork-YARCH-HomeWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B9BB9674C89F97FF074FBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork/Pods-YARCH-HomeWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork/Pods-YARCH-HomeWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork/Pods-YARCH-HomeWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4FF58DF0C44C84525E2CAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork-YARCH-HomeWorkTests/Pods-YARCH-HomeWork-YARCH-HomeWorkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork-YARCH-HomeWorkTests/Pods-YARCH-HomeWork-YARCH-HomeWorkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YARCH-HomeWork-YARCH-HomeWorkTests/Pods-YARCH-HomeWork-YARCH-HomeWorkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250971C02978DFB9009CAD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256CA2E9297A1F1300807A6A /* MainPresenterTests.swift in Sources */,
+				256CA2EF297A4B5800807A6A /* MainViewTests.swift in Sources */,
+				250971CF2978E493009CAD26 /* MainMocks.swift in Sources */,
+				256CA2E7297A00E800807A6A /* MainInteractorTests.swift in Sources */,
+				256CA2ED297A2F3500807A6A /* MainViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AC482296F9125005ED257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AC48E296F9125005ED257 /* ViewController.swift in Sources */,
+				255AC48A296F9125005ED257 /* AppDelegate.swift in Sources */,
+				255AC48C296F9125005ED257 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250971C92978DFB9009CAD26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255AC485296F9125005ED257 /* YARCH-HomeWork */;
+			targetProxy = 250971C82978DFB9009CAD26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255AC48F296F9125005ED257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AC490296F9125005ED257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255AC494296F9126005ED257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AC495296F9126005ED257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250971CA2978DFB9009CAD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D754814C1277C5AB73552FF5 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNNG53BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g.app.YARCH-HomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YARCH-HomeWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YARCH-HomeWork";
+			};
+			name = Debug;
+		};
+		250971CB2978DFB9009CAD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1E4CB344AAD8F627E22456 /* Pods-YARCH-HomeWork-YARCH-HomeWorkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNNG53BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g.app.YARCH-HomeWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YARCH-HomeWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YARCH-HomeWork";
+			};
+			name = Release;
+		};
+		255AC498296F9126005ED257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255AC499296F9126005ED257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255AC49B296F9126005ED257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0815DA6947DB95B4869815A0 /* Pods-YARCH-HomeWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNNG53BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YARCH-HomeWork/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g.app.YARCH-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255AC49C296F9126005ED257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEA9C5F4F8D7F7FC41928E4 /* Pods-YARCH-HomeWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNNG53BAH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YARCH-HomeWork/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g.app.YARCH-HomeWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250971CC2978DFB9009CAD26 /* Build configuration list for PBXNativeTarget "YARCH-HomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250971CA2978DFB9009CAD26 /* Debug */,
+				250971CB2978DFB9009CAD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255AC481296F9125005ED257 /* Build configuration list for PBXProject "YARCH-HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AC498296F9126005ED257 /* Debug */,
+				255AC499296F9126005ED257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255AC49A296F9126005ED257 /* Build configuration list for PBXNativeTarget "YARCH-HomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AC49B296F9126005ED257 /* Debug */,
+				255AC49C296F9126005ED257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255AC47E296F9125005ED257 /* Project object */;
+}

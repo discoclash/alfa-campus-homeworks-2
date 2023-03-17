@@ -1,0 +1,32 @@
+PODS:
+  - Nimble (11.2.1)
+  - Quick (5.0.1)
+  - SnapKit (5.6.0)
+  - University/UniversityList (1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - Nimble
+  - Quick (= 5.0.1)
+  - SnapKit
+  - University/UniversityList (from `Frameworks/University`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+    - SnapKit
+
+EXTERNAL SOURCES:
+  University:
+    :path: Frameworks/University
+
+SPEC CHECKSUMS:
+  Nimble: 516ac503a0fafaa8e41dbb4a70a61be421fa893a
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  University: 2a8c7a35f44fc4f1106da96ce639bb1f14c19417
+
+PODFILE CHECKSUM: 136b6aa6b65b54e5761685f6be0b00958c130058
+
+COCOAPODS: 1.11.3

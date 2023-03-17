@@ -1,0 +1,24 @@
+PODS:
+  - SnapKit (5.6.0)
+  - University/UniversityList (1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - SnapKit
+  - University/UniversityList (from `Frameworks/University`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  University:
+    :path: Frameworks/University
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  University: 2a8c7a35f44fc4f1106da96ce639bb1f14c19417
+
+PODFILE CHECKSUM: 079a9a8e1c9d7869465f2257f6bc17650cd949a9
+
+COCOAPODS: 1.11.3

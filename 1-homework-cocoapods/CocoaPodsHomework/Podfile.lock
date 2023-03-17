@@ -1,0 +1,46 @@
+PODS:
+  - CustomFrameworks/ViewControllers (1.0)
+  - CustomFrameworks/Views (1.0)
+  - SnapKit (4.2.0)
+  - UIBasics (1.0):
+    - CustomFrameworks/ViewControllers
+    - SnapKit
+    - UIBasics/ViewControllers (= 1.0)
+    - UIBasics/Views (= 1.0)
+  - UIBasics/ViewControllers (1.0):
+    - CustomFrameworks/ViewControllers
+    - SnapKit
+  - UIBasics/Views (1.0):
+    - CustomFrameworks/ViewControllers
+    - SnapKit
+
+DEPENDENCIES:
+  - "CustomFrameworks/ViewControllers (from `git@www.gitlab-alfa-campus.ru:iagolubev/homework-cocoapods.git`, branch `homework7`)"
+  - "CustomFrameworks/Views (from `git@www.gitlab-alfa-campus.ru:iagolubev/homework-cocoapods.git`, branch `homework7`)"
+  - SnapKit (= 4.2)
+  - UIBasics (from `Frameworks/UIBasics`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  CustomFrameworks:
+    :branch: homework7
+    :git: "git@www.gitlab-alfa-campus.ru:iagolubev/homework-cocoapods.git"
+  UIBasics:
+    :path: Frameworks/UIBasics
+
+CHECKOUT OPTIONS:
+  CustomFrameworks:
+    :commit: 5bac07048f797d3d2443cd470b44382cf4d1821d
+    :git: "git@www.gitlab-alfa-campus.ru:iagolubev/homework-cocoapods.git"
+
+SPEC CHECKSUMS:
+  CustomFrameworks: 9dfaf8fe0d0e93965088749968d247cd617fcbbe
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  UIBasics: 7c19e77c05829062e37317dd6e30399bc2c3b042
+
+PODFILE CHECKSUM: e27819111acb67b75b73dfbc6464ef190a62a60f
+
+COCOAPODS: 1.11.3
